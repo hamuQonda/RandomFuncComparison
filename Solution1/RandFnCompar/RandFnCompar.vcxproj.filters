@@ -27,9 +27,4 @@
       <Filter>ソース ファイル</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\..\..\nakse\Desktop\Random Function Comparison.png">
-      <Filter>リソース ファイル</Filter>
-    </Image>
-  </ItemGroup>
 </Project>

@@ -145,9 +145,6 @@
   <ItemGroup>
     <ClInclude Include="pcg_basic.h" />
   </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\..\..\nakse\Desktop\Random Function Comparison.png" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
