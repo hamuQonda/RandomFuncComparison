@@ -23,14 +23,14 @@ void UpdateDrawFrame(void)
 {
     BeginDrawing();
 
-    DrawText("Standard rand()", 10, 10, 30, RAYWHITE);
-    DrawText(TextFormat("cpu time : %00.4f sec", cpu_time[STD_RAND]), 10, 45, 40, YELLOW);
+    DrawText("Standard rand()", 10, 10, 30, LIGHTGRAY);
+    DrawText(TextFormat("cpu time : %00.4f sec", cpu_time[STD_RAND]), 10, 45, 40, LIGHTGRAY);
 
-    DrawText("raylib's GetRandomValue()", 10, 110, 30, RAYWHITE);
-    DrawText(TextFormat("cpu time : %.4f sec", cpu_time[RLIB_RAND]), 10, 145, 40, YELLOW);
+    DrawText("raylib's GetRandomValue()", 10, 130, 30, RAYWHITE);
+    DrawText(TextFormat("cpu time : %.4f sec", cpu_time[RLIB_RAND]), 10, 165, 40, RAYWHITE);
 
-    DrawText("PCG's pcg32_boundedrand_r()", 10, 210, 30, RAYWHITE);
-    DrawText(TextFormat("cpu time : %.4f sec", cpu_time[PCG_RAND]), 10, 245, 40, YELLOW);
+    DrawText("PCG's pcg32_boundedrand_r()", 10, 250, 30, WHITE);
+    DrawText(TextFormat("cpu time : %.4f sec", cpu_time[PCG_RAND]), 10, 285, 40, WHITE);
 
     EndDrawing();
 }
